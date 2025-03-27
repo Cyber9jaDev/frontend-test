@@ -1,0 +1,38 @@
+.uploadArea {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dragActive {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.uploadContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.uploadIcon {
+  width: 3rem;
+  height: 3rem;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.uploadSubtext {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.uploadHint {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-top: 1rem;
+}
